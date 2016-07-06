@@ -1,0 +1,38 @@
+body{
+    color:black;
+}
+header nav ul li a{
+    color:#3e5356;
+}
+.nav a.here:link ,
+.nav a.here:visited ,
+.nav a.here:hover ,
+.nav a.here:active {
+    color: #bd2d30;
+}
+header nav ul li a:hover{
+    color: #bd2d30;
+}
+article img{
+    border-color: #ba9;
+    outline-color:#dcb;
+}
+#imagegallery a{
+    background-color: transparent;
+}
+th{
+    color: white;
+    background-color: #c4bbb4;
+}
+tr td{
+    color: #223;
+    background-color: #fdfcc3;
+}
+tr.odd td{
+    color: #223;
+    background-color: #f4fce5;
+}
+tr.hightlight td{
+    color: #223;
+    background-color: #cba;
+}

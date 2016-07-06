@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我</title>
+    <link rel="stylesheet" href="css/basic.css">
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body class="contact">
+<header>
+
+    <img src="images/4.jpg" alt="多肉">
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html" >主页</a></li>
+            <li><a href="about.html " >多肉养护</a></li>
+            <li><a href="photos.html">多肉品种</a></li>
+            <li><a href="live.html">多肉记录</a></li>
+            <li><a href="contact.html">联系我</a></li>
+        </ul>
+    </nav>
+</header>
+<article>
+    <form method="post" action="submit.html">
+        <fieldset>
+            <p>
+                <label for="name">姓名：</label>
+                <input type="text" id="name" name="name" placeholder="请输入姓名" required="required">
+            </p>
+            <p>
+                <label for="email">邮箱：</label>
+                <input type="email" id="email" name="email" placeholder="请输入邮箱" required="required">
+            </p>
+            <p>
+                <label for="message">内容：</label>
+                <textarea cols="45" rows="7" id="message" name="message" placeholder="请输入内容" required="required"></textarea>
+            </p>
+            <input type="submit" value="提交">
+        </fieldset>
+
+    </form>
+</article>
+<script src="js/global.js"></script>
+</body>
+</html>

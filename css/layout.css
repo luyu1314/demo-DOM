@@ -1,0 +1,79 @@
+section,header,article,nav{
+    display: block;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0em 10%;
+    background-image: url(../images/bg.jpg);
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: repeat-x;
+    max-width: 80em;
+}
+header nav {
+    background-image: url(../images/nav.jpg);
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    height: 50px;
+    width: 970px;
+}
+header nav  li{
+    display: inline;
+}
+header nav  li a{
+    display:block;
+    float: left;
+    padding: .5em 3em;
+    margin-left: .7em;
+}
+article{
+    padding: 2em;
+    line-height: 1.8em;
+}
+section{
+    margin-top: 50px;
+    border:dotted 1px;
+    border-color: #eebb66;
+}
+section h3{
+    text-align: center;
+}
+section img{
+    width: 400px;
+   padding-left: 30%;
+}
+#slideshow{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+}
+#preview{
+    position: absolute;
+    border-width: 0;
+    outline-width: 0;
+}
+#imagegallery li{
+    display: inline;
+}
+td{
+    padding: .5em .5em;
+}
+label{
+    display: block;
+}
+fieldset{
+    border: 0;
+}
+dl{
+    overflow: hidden;
+}
+dt{
+    float: left;
+}
+dd{
+    float: left;
+}
